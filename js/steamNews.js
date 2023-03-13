@@ -7,7 +7,7 @@ const fetchData = async () => {
 
     try {
       await delay(.1);
-      const res = await fetch("../steamNews.json");
+      const res = await fetch("steamNews.json");
       const dados = await res.json();
       resolve(dados);
     } catch (err) {
