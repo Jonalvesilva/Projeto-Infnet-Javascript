@@ -1,0 +1,251 @@
+.steamNews{
+  background-color: black;
+  padding-bottom: 80px;
+}
+.div-steamNews{
+  padding:0 20px;
+  width:100%;
+}
+.newsSteamTitle{
+  margin:0;
+  color:white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+
+.error{
+  color:white;
+  font-size: 22px;
+  padding:0 20px;
+}
+
+.divSteamNews{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:50px;
+}
+.newCard-item{
+  width:80%;
+  height:300px;
+  background-color: #171a21;
+  display:flex;
+  backdrop-filter: blur(40px);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.newCard-item:hover{
+    background-color: #ffffff24;
+ }
+
+@media screen and (max-width:596px){
+
+  .newCard-item{
+    width:80%;
+    height:100%;
+    background-color: #171a21;
+    display:flex;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .newCardImg-item{
+   width: 100%;
+   height: 250px; 
+  }  
+
+  .cardImg-item{
+    width: 100%;
+    height:100%;
+  }
+
+  .nameGame{
+    color:#c6d4df;
+    text-align: justify;
+  }
+
+  .newsGameTitle{
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    text-align: justify;
+  }
+
+  .newsGameDescription{
+    color:white;
+    font-style: italic;
+    text-align: justify;
+    line-height: 22px;
+    text-shadow: 1px 2px 1px black;
+  }
+
+  .newCard-item:hover{
+    background-color: #ffffff24;
+  }
+  
+}
+
+
+@media screen and (min-width:597px) and (max-width:1024px){
+
+  .newCard-item{
+    width:85%;
+    height:100%;
+    background-color: #171a21;
+    display:flex;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .newCardImg-item{
+   width: 100%;
+   height: 400px; 
+  }  
+
+  .cardImg-item{
+    width: 100%;
+    height:100%;
+  }
+
+  .nameGame{
+    color:#c6d4df;
+    text-align: justify;
+    font-size: 36px;
+  }
+
+  .newsGameTitle{
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    text-align: justify;
+    font-size: 34px;
+  }
+
+  .newsGameDescription{
+    color:white;
+    font-style: italic;
+    text-align: justify;
+    line-height: 40px;
+    text-shadow: 1px 2px 1px black;
+    font-size: 32px;
+  }
+
+  .newCard-item:hover{
+    background-color: #ffffff24;
+  }
+  
+}
+
+@media screen and (min-width:1025px) and (max-width:1920px){
+
+  .newCard-item{
+    width:85%;
+    height:100%;
+    background-color: #171a21;
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 20px;
+    gap:20px;
+  }
+  .newCardDescription-item{
+    width: 90%;
+  }
+  
+  .newCardImg-item{
+   width: 80%;
+  }  
+
+  .cardImg-item{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+  }
+
+  .nameGame{
+    color:#c6d4df;
+    text-align: justify;
+    font-size: 30px;
+  }
+
+  .newsGameTitle{
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    text-align: justify;
+    font-size: 28px;
+  }
+
+  .newsGameDescription{
+    color:white;
+    font-style: italic;
+    text-align: justify;
+    line-height: 40px;
+    text-shadow: 1px 2px 1px black;
+    font-size: 26px;
+  }
+
+  .newCard-item:hover{
+    background-color: #ffffff24;
+  }
+  
+}
+
+@media screen and (min-width:1921px){
+
+  .newCard-item{
+    width:85%;
+    max-width: 1720px;
+    height:100%;
+    background-color: #171a21;
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 20px;
+    gap:20px;
+    justify-content: space-between;
+  }
+  .newCardDescription-item{
+    max-width: 860px;
+    width: 90%;
+  }
+  
+  .newCardImg-item{
+    max-width:750px;
+    width: 80%;
+  }  
+
+  .cardImg-item{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+  }
+
+  .nameGame{
+    color:#c6d4df;
+    text-align: justify;
+    font-size: 30px;
+  }
+
+  .newsGameTitle{
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    text-align: justify;
+    font-size: 28px;
+  }
+
+  .newsGameDescription{
+    color:white;
+    font-style: italic;
+    text-align: justify;
+    line-height: 40px;
+    text-shadow: 1px 2px 1px black;
+    font-size: 26px;
+  }
+
+  .newCard-item:hover{
+    background-color: #ffffff18;
+  }
+  
+}

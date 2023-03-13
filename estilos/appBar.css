@@ -1,0 +1,140 @@
+/*App Bar*/
+
+  .app-bar {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+    z-index: 999;
+  }
+
+  .app-bar-title {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color:#131e30;
+    color:white;
+    height:60px;
+    margin:auto;
+    padding: 10px;
+  }
+
+  .app-bar-subtitle {
+    background-color: #464d60;
+    color:white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:20px;
+  }
+
+  .img-title{
+    width:100px;
+    height: 55px;
+  }
+
+  .menuDrawer{
+      cursor:pointer;
+  }
+
+
+/**/
+
+/*Mobile Screen*/
+  
+  @media screen and (max-width:470px){
+    
+    .menuDrawer{
+      width: 75%;
+      height:75%;
+    }
+
+    .app-bar-subtitle-descricaoSite{
+      font-size:12px;
+    }
+
+    .app-bar-subtitle-clock{
+      font-size:20px;
+    }
+    
+  }
+
+  @media screen and (min-width:471px) and (max-width:596px) {
+    
+    .menuDrawer{
+      width: 80%;
+      height:80%;
+    }
+
+    .app-bar-subtitle-descricaoSite{
+      font-size:16px;
+    }
+
+    .app-bar-subtitle-clock{
+      font-size:22px;
+    }
+    
+  }
+
+/**/
+
+/*Tablet Screen*/
+  
+  @media screen and (min-width:597px) and (max-width:768px) {
+      
+      .menuDrawer{
+        width: 82%;
+        height:82%;
+      }
+  
+      .app-bar-subtitle-descricaoSite{
+        font-size:20px;
+      }
+  
+      .app-bar-subtitle-clock{
+        font-size:26px;
+      }
+  }
+
+  @media screen and (min-width:769px) and (max-width:1023px) {
+      
+      .menuDrawer{
+        width: 85%;
+        height:85%;
+      }
+  
+      .app-bar-subtitle-descricaoSite{
+        font-size:22px;
+      }
+  
+      .app-bar-subtitle-clock{
+        font-size:28px;
+      }
+  }
+
+/**/
+
+
+/*Desktop Screen*/
+
+  @media screen and (min-width:1024px) and (max-width:1920px) {
+      
+      .menuDrawer{
+        width: 90%;
+        height:90%;
+      }
+  
+      .app-bar-subtitle-descricaoSite{
+        font-size:24px;
+      }
+  
+      .app-bar-subtitle-clock{
+        font-size:30px;
+      }
+  }
+
+/**/

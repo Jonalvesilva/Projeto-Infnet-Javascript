@@ -1,0 +1,39 @@
+{
+  "games": [
+    {
+      "gameName":"Crash Team Rumble",
+      "newsGameTitle":"Rumores sobre a data de lançamento de Crash Team Rumble, jogabilidade e mais",
+      "newsGameDescription":"É o retorno de nosso mascote favorito, Crash Bandicoot, já que ele retorna com a data de           lançamento de Crash Team Rumble. Estamos todos        felizes em ver o único mascote marsupial voltar para outro         jogo e, desta vez, parece ser algo diferente. Anunciado no The Game Awards 2022, o Crash Team             Rumble         não é o seu caso padrão do Crash Bandicoot, mas sim uma experiência baseada em equipe para amigos, familiares e          estranhos jogarem uns contra os outros        online. Aqui está tudo o que você precisa saber sobre o Crash Team         Rumble.",
+      "urlImgGame":"https://www.theloadout.com/wp-content/sites/theloadout/2022/12/crash-team-rumble-release-date-gameplay-more-900x506.jpg"
+  },
+
+    {
+      "gameName":"S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "newsGameTitle":"Janela de lançamento é confirmada",
+      "newsGameDescription":"A informação veio através do perfil oficial do The Game Awards no Twitter, que listou S.T.A.L.K.E.R. 2 como um dos jogos com lançamento previsto para o primeiro semestre de 2023.",
+      "urlImgGame":"https://cdn.akamai.steamstatic.com/steam/apps/1643320/header.jpg?t=1676898117"
+    },
+
+     {
+      "gameName":"The Last of Us Part I",
+      "newsGameTitle":"The Last of Us Part I ganha data de lançamento no PC",
+      "newsGameDescription":"O remake de um dos clássicos do PlayStation 3 e PlayStation 4 chegará ao PC no próximo ano. The Last Of Us Part I, lançado neste ano para o PlayStation 5, chegará aos computadores pela Steam e pela Epic Games Store no dia 3 de março de 2023.",
+      "urlImgGame":"https://cdn.akamai.steamstatic.com/steam/apps/1888930/header.jpg?t=1678143122"
+    },
+
+    {
+      "gameName":"Traveler's Bastion",
+      "newsGameTitle":"Em breve, mais um jogo lançado pela plataforma",
+      "newsGameDescription":"Um paraíso de balas e mashup de defesa de torre. Proteja seu castelo itinerante de um exército imperial tentando caçá-lo. Combine estilos de flexão elementar e crie teoricamente o conjunto perfeito de cadeias de habilidades que quebram o jogo.",
+      "urlImgGame":"https://cdn.akamai.steamstatic.com/steam/apps/2194980/header.jpg?t=1678217288"
+    },
+
+     {
+      "gameName":"PAYDAY 3",
+      "newsGameTitle":"Jogo confirmado para 2023",
+      "newsGameDescription":"PAYDAY 3 é a aguardada sequência de um dos jogos de tiro cooperativo mais populares de todos os tempos. Desde o seu lançamento, os jogadores do PAYDAY se divertem com a emoção de um assalto perfeitamente planejado e executado. Isso é o que torna PAYDAY uma experiência FPS cooperativa de alta octanagem sem igual. Recentemente a empresa Starbreeze divulgou o seu mais relatório repleto de informações e confirmou que o plano é lançar Payday 3 ainda neste ano, em 2023.",
+      "urlImgGame":"https://cdn.akamai.steamstatic.com/steam/apps/1272080/header.jpg?t=1672529028"
+    }
+
+  ]
+}
